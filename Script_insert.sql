@@ -91,4 +91,3 @@ VALUES
 INSERT INTO Cobranca(Data_da_cobranca, ID_Estudante, ID_Pendencia, ID_Funcionario)
 VALUES
 ('2025-05-03', 2, 1, 1);
-
