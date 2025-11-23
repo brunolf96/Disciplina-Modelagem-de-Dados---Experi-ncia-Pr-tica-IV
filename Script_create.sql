@@ -4,8 +4,8 @@
 CREATE TABLE Acervo (
     ID_Acervo INTEGER PRIMARY KEY AUTOINCREMENT,
     Quantidade_de_Itens INTEGER NOT NULL,
-    Nome_do_Item TEXT(100) NOT NULL,
-    Tipo_de_item TEXT(20) ,
+    Nome_do_Item VARCHAR(100) NOT NULL,
+    Tipo_de_item VARCHAR(20) ,
     Numero_de_paginas INTEGER
 );
 
@@ -35,8 +35,8 @@ CREATE TABLE Consulta (
 ----- Tabela Estudante
 CREATE TABLE Estudante (
     ID_Estudante INTEGER PRIMARY KEY AUTOINCREMENT,
-    Nome_do_Estudante TEXT(100) NOT NULL,
-    Telefone_do_Estudante TEXT(20) NOT NULL,
+    Nome_do_Estudante VARCHAR(100) NOT NULL,
+    Telefone_do_Estudante VARCHAR(20) NOT NULL,
     ID_Endereco INTEGER,
     FOREIGN KEY (ID_Endereco) REFERENCES Endereco(ID_Endereco)
 );
@@ -68,8 +68,8 @@ CREATE TABLE Cobranca (
 CREATE TABLE Pendencia (
     ID_Pendencia INTEGER PRIMARY KEY AUTOINCREMENT,
     Prazo_limite_da_solucao DATE NOT NULL,
-    Descricao_da_Penalidade TEXT(50) NOT NULL,
-    Descricao_da_Pendencia TEXT(50) NOT NULL,
+    Descricao_da_Penalidade VARCHAR(50) NOT NULL,
+    Descricao_da_Pendencia VARCHAR(50) NOT NULL,
     ID_Estudante INTEGER,
     FOREIGN KEY (ID_Estudante) REFERENCES Estudante(ID_Estudante)
 );
@@ -90,14 +90,14 @@ CREATE TABLE Emprestimo (
 ----- Tabela Cargo
 CREATE TABLE Cargo (
     ID_Cargo INTEGER PRIMARY KEY AUTOINCREMENT,
-    Nome_do_Cargo TEXT(50) NOT NULL
+    Nome_do_Cargo VARCHAR(50) NOT NULL
 );
 
 ----- Tabela Funcionario
 CREATE TABLE Funcionario (
     ID_Funcionario INTEGER PRIMARY KEY AUTOINCREMENT,
-    Nome_do_Funcionario TEXT(100) NOT NULL,
-    Telefone_do_Funcionario TEXT(20) NOT NULL,
+    Nome_do_Funcionario VARCHAR(100) NOT NULL,
+    Telefone_do_Funcionario VARCHAR(20) NOT NULL,
     ID_Endereco INTEGER,
     ID_Cargo INTEGER,
     FOREIGN KEY (ID_Endereco) REFERENCES Endereco(ID_Endereco)
@@ -107,9 +107,10 @@ CREATE TABLE Funcionario (
 ----- Tabela Endereco
 CREATE TABLE Endereco (
     ID_Endereco INTEGER PRIMARY KEY AUTOINCREMENT,
-    Rua_do_Endereco TEXT(100) NOT NULL,
-    Numero_do_Endereco TEXT(10) NOT NULL,
-    Cidade_do_Endereco TEXT(100) NOT NULL,
-    Estado_do_Endereco TEXT(2) NOT NULL
+    Rua_do_Endereco VARCHAR(100) NOT NULL,
+    Numero_do_Endereco VARCHAR(10) NOT NULL,
+    Cidade_do_Endereco VARCHAR(100) NOT NULL,
+    Estado_do_Endereco VARCHAR(2) NOT NULL
 
 );
+
