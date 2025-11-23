@@ -1,3 +1,5 @@
+----- Criação das tabelas -----
+
 ----- Tabela Acervo
 CREATE TABLE Acervo (
     ID_Acervo INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -109,4 +111,5 @@ CREATE TABLE Endereco (
     Numero_do_Endereco TEXT(10) NOT NULL,
     Cidade_do_Endereco TEXT(100) NOT NULL,
     Estado_do_Endereco TEXT(2) NOT NULL
+
 );
