@@ -8,6 +8,6 @@ WHERE ID_Material IN (1, 2, 3);
 DELETE FROM Acervo
 WHERE ID_Acervo = 1;
 
------ Remoção dos registros mais antigos
+----- Remoção dos registros mais antigos, registros com data até 2025-05-01
 DELETE FROM Consulta
 WHERE Data_da_consulta <= '2025-05-01';
