@@ -7,17 +7,28 @@ Primeiro, modelou-se o funcionamento de uma biblioteca de universidade pública.
 <img width="1771" height="1281" alt="image" src="https://github.com/user-attachments/assets/3a165363-165f-4d50-805d-fded5f0ec9c5" />
 
 Resumo das tabelas:
-  1. Acervo       -> Informações sobre um item do acervo da biblioteca;
-  2. Material     -> Informações sobre um material da biblioteca
-  3. Consulta     -> Informações sobre uma consulta realizada de um material do acervo da biblioteca
-  4. Estudante    -> Informações dos estudantes da universidade
-  5. Reserva      -> Informações sobre uma reserva de material
-  6. Cobranca     -> Informações sobre uma cobrança realizada por um funcionário para que o estudante, que apresenta alguma pendência, solucione a questão pendente
-  7. Pendencia    -> Informações sobre a pendência que um estudante possui com a biblioteca
-  8. Emprestimo   -> Informações sobre o empréstimo que foi autorizado por um funcionário
-  9. Cargo        -> Descrição dos cargos profissionais relacionados ao funcionamento da biblioteca;
-  10. Funcionario -> Informações dos funcionários da biblioteca;
-  11. Endereco    -> Endereços dos Estudantes e Funcionários relacionados a universidade.
+  1. Acervo
+      - Informações sobre um item do acervo da biblioteca.
+  2. Material
+      - Informações sobre um material da biblioteca.
+  3. Consulta
+      - Informações sobre uma consulta realizada de um material do acervo da biblioteca.
+  4. Estudante
+      - Informações dos estudantes da universidade.
+  5. Reserva
+      - Informações sobre uma reserva de material.
+  6. Cobranca
+      - Informações sobre uma cobrança realizada por um funcionário para que o estudante, que apresenta alguma pendência, solucione a questão pendente.
+  7. Pendencia
+      - Informações sobre a pendência que um estudante possui com a biblioteca.
+  8. Emprestimo
+      - Informações sobre o empréstimo que foi autorizado por um funcionário.
+  9. Cargo
+      - Descrição dos cargos profissionais relacionados ao funcionamento da biblioteca.
+  10. Funcionario
+      - Informações dos funcionários da biblioteca.
+  11. Endereco
+      - Endereços dos Estudantes e Funcionários relacionados a universidade.
   
 Na sequência, com comandos SQL, as atividades consistiram em criar os elementos definidos dentro do modelo, elaborar e executar comandos de inserção de dados (INSERT) e consulta (SELECT) no banco de dados do projeto, garantindo coerência com o modelo lógico e os tipos de dados que foram definidos no processo. 
 
