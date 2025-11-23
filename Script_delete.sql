@@ -11,4 +11,3 @@ WHERE ID_Acervo = 1;
 ----- Remoção dos registros mais antigos
 DELETE FROM Consulta
 WHERE Data_da_consulta <= '2025-05-01';
-
