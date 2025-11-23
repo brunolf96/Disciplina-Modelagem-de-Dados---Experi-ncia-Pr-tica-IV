@@ -1,3 +1,5 @@
+----- Inserção de dados nas tabelas -----
+
 ----- Tabela Acervo
 INSERT INTO Acervo(Quantidade_de_Itens, Nome_do_Item, Tipo_de_item, Numero_de_paginas)
 VALUES
@@ -89,3 +91,4 @@ VALUES
 INSERT INTO Cobranca(Data_da_cobranca, ID_Estudante, ID_Pendencia, ID_Funcionario)
 VALUES
 ('2025-05-03', 2, 1, 1);
+
